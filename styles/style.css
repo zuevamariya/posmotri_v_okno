@@ -170,6 +170,11 @@ input:focus {
   outline-offset: 1px;
 }
 
+.search-form__label:has(.search-form__checkbox:focus-visible) {
+  outline: 1px solid #FFF;
+  outline-offset: 3px;
+}
+
 .search-form__textfield:hover {
   text-decoration-line: none;
 }
